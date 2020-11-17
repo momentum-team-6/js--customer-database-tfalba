@@ -1,8 +1,12 @@
 
 console.log('hello')
-const customersDiv = document.createElement('div')
-document.querySelector('body').appendChild(customersDiv)
 
-customersDiv.innerHTML = `<p>${customers[0].name.first}</p>`
-customersDiv.classList.add('customers')
+for (let customer of customers) {
+  const customerDiv = document.createElement('div')
+  customerDiv.classList.add('customers')
+  document.querySelector('body').appendChild(customerDiv)
 
+  customerDiv.innerHTML = `<img src=${customer.picture['large']}>
+  <p>${customer.name.first} ${customer.name.last}</p>`
+}
+// redo this using appendChild
