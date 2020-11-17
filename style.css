@@ -10,21 +10,23 @@ body {
   flex-direction: row;
   flex-basis: 1000px; */
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 15px;
   justify-content: center;
 }
 h1 {
-  display: block;
+  display: flex;
+  flex-basis: 100%;
+  margin: 40px;
 }
 .customers {
   display: flex;
-  border: 2px solid aquamarine;
-  text-transform: capitalize;
-  flex-basis: 240px;
+  /* border: 2px solid aquamarine; */
+  flex-basis: 220px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin: 20px;
+  margin: 35px 25px 35px 25px;
 }
 
 img {
@@ -39,18 +41,24 @@ img {
   display: flex;
   font-size: 1.4rem;
   flex-wrap: wrap;
+  font-weight: bold;
+  text-transform: capitalize;
 }
 .email {
   display: flex;
   color: rgb(136, 135, 135);
   text-transform: lowercase;
+  margin: 3px 0px 7px 0px;
 }
 
 .address {
   display: flex;
   flex-wrap: nowrap;
+  margin-bottom: 1px;
 }
 .dob {
   display: flex;
   flex-wrap: nowrap;
+  margin-top: 7px;
+  margin-bottom: 3px;
 }
