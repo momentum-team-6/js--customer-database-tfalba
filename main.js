@@ -4,7 +4,7 @@ const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', '
 const header = document.createElement('h1')
 header.classList.add('h1')
 document.querySelector('body').appendChild(header)
-header.innerHTML = "Customer Showcase"
+header.innerHTML = "Customer Directory"
 
 for (let customer of customers) {
   const customerDiv = document.createElement('div')
