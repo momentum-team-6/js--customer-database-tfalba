@@ -9,13 +9,34 @@ body {
   /* display: flex;
   flex-direction: row;
   flex-basis: 1000px; */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  justify-content: center;
 }
 
 .customers {
   display: flex;
   border: 2px solid aquamarine;
   text-transform: capitalize;
-  flex-basis: 300px;
+  flex-basis: 200px;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   margin: 20px;
+}
+
+img {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  display: flex;
+  font-size: 1.5rem;
+  flex-wrap: wrap;
+}
+.email {
+  display: flex;
+  font-style: italic;
 }

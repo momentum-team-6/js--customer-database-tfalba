@@ -7,6 +7,7 @@ for (let customer of customers) {
   document.querySelector('body').appendChild(customerDiv)
 
   customerDiv.innerHTML = `<img src=${customer.picture['large']}>
-  <p>${customer.name.first} ${customer.name.last}</p>`
+  <div class='name'>${customer.name.first} ${customer.name.last}</div>
+  <div class='email'>${customer.email}</div>`
 }
 // redo this using appendChild
