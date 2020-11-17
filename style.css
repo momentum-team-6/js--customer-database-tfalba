@@ -13,12 +13,14 @@ body {
   font-size: 15px;
   justify-content: center;
 }
-
+h1 {
+  display: block;
+}
 .customers {
   display: flex;
   border: 2px solid aquamarine;
   text-transform: capitalize;
-  flex-basis: 200px;
+  flex-basis: 240px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -30,13 +32,25 @@ img {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  border-top-right-radius: 40px;
+  border-radius: 50px 80px 50px 80px;
 }
 .name {
   display: flex;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   flex-wrap: wrap;
 }
 .email {
   display: flex;
-  font-style: italic;
+  color: rgb(136, 135, 135);
+  text-transform: lowercase;
+}
+
+.address {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.dob {
+  display: flex;
+  flex-wrap: nowrap;
 }
